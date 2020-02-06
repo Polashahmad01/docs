@@ -1,0 +1,316 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #88e1f2;
+  line-height: 1.4rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Navbar Styling */
+#navbar {
+  position: fixed;
+  border-right: #333 solid 2px;
+}
+
+#navbar header {
+  font-size: 1.8rem;
+  padding: 1.5rem;
+}
+
+#navbar ul li {
+  border: 1px solid #333;
+  text-align: center;
+  padding: .56rem;
+  font-size: 1.1rem;
+}
+
+#navbar ul li a:hover {
+  color: #fff;
+}
+
+#navbar header {
+  color: #fff;
+}
+
+/* Introduction Section */
+#Introduction header {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+#Introduction {
+  position: absolute;
+  top: 0;
+  left: 20rem;
+}
+
+#Introduction p {
+  padding: 1rem 0;
+  text-align: justify;
+}
+
+#Introduction ul li {
+  list-style: disc;
+  padding: .5rem 0;
+}
+
+/* What-you-should-already-know section Styling */
+#What-you-should-already-know header {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+#What-you-should-already-know {
+  position: absolute;
+  top: 23rem;
+  left: 20rem;
+}
+
+#What-you-should-already-know p {
+  padding: 1rem 0;
+  text-align: justify;
+}
+
+#What-you-should-already-know ul li {
+  list-style: disc;
+  padding: .5rem 0;
+}
+
+/* JavaScript-and-Java section styling */
+#JavaScript-and-Java header {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+#JavaScript-and-Java {
+  position: absolute;
+  top: 38rem;
+  left: 20rem;
+}
+
+#JavaScript-and-Java p {
+  padding: 1rem 0;
+  text-align: justify;
+}
+
+/* Hello World Section */
+#Hello-world header {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+#Hello-world {
+  position: absolute;
+  top: 63rem;
+  left: 20rem;
+}
+
+#Hello-world p {
+  padding: 1rem 0;
+  text-align: justify;
+}
+
+/* Variables Section */
+#Variables header {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+#Variables {
+  position: absolute;
+  top: 78rem;
+  left: 20rem;
+}
+
+#Variables p {
+  padding: 1rem 0;
+  text-align: justify;
+}
+
+/* Declaring-variables Section */
+#Declaring-variables header {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+#Declaring-variables {
+  position: absolute;
+  top: 95rem;
+  left: 20rem;
+}
+
+#Declaring-variables p {
+  padding: 1rem 0;
+  text-align: justify;
+}
+
+/* Variable-scope Section */
+#Variable-scope header {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+#Variable-scope {
+  position: absolute;
+  top: 134rem;
+  left: 20rem;
+}
+
+#Variable-scope p {
+  padding: 1rem 0;
+  text-align: justify;
+}
+
+/* Global-variables Section */
+#Global-variables header {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+#Global-variables {
+  position: absolute;
+  top: 160rem;
+  left: 20rem;
+}
+
+#Global-variables p {
+  padding: 1rem 0;
+  text-align: justify;
+}
+
+/* Constants Section */
+#Constants header {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+#Constants {
+  position: absolute;
+  top: 175rem;
+  left: 20rem;
+}
+
+#Constants p {
+  padding: 1rem 0;
+  text-align: justify;
+}
+
+/* Data-types Section */
+#Data-types header {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+#Data-types {
+  position: absolute;
+  top: 210rem;
+  left: 20rem;
+}
+#Data-types ul {
+  list-style: disc;
+  padding: .5rem 0;
+}
+
+#Data-types ul li ul li {
+  list-style: circle;
+  padding: .5rem 0;
+}
+
+#Data-types p {
+  padding: 1rem 0;
+  text-align: justify;
+}
+
+/* if-else-statement Section */
+#if-else-statement header {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+#if-else-statement {
+  position: absolute;
+  top: 238rem;
+  left: 20rem;
+}
+
+#if-else-statement p {
+  padding: 1rem 0;
+  text-align: justify;
+}
+
+/* while-statement Section */
+#while-statement header {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+#while-statement {
+  position: absolute;
+  top: 288rem;
+  left: 20rem;
+}
+
+#while-statement ul li {
+  list-style: disc;
+  padding: .5rem 0;
+}
+
+#while-statement p {
+  padding: 1rem 0;
+  text-align: justify;
+}
+
+/* Function-declarations Section */
+#Function-declarations header {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+#Function-declarations {
+  position: absolute;
+  top: 340rem;
+  left: 20rem;
+}
+
+#Function-declarations ul li {
+  list-style: disc;
+  padding: .5rem 0;
+}
+
+#Function-declarations p {
+  padding: 1rem 0;
+  text-align: justify;
+}
+
+/* Reference Section Styling */
+#Reference header {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+#Reference {
+  position: absolute;
+  top: 378rem;
+  left: 20rem;
+}
+
+#Reference p {
+  margin-bottom: 15rem;
+}
+
+#Reference p a {
+  color: #fff;
+  text-decoration: underline;
+}
